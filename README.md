@@ -18,7 +18,7 @@ RapidStockTracker is a user-friendly command-line inventory management tool tail
 
 <sub>* This is currently an experimental phase where the primary focus is on making the system functional and establishing a practical and logical pathway that aligns with both my vision and the project's goals. It might contain errors, bugs, etc. Many other non-core elements of the project are considered secondary.</sub>
 
-#### SmartStockKeeper Features
+#### RapidStockTracker Features
 
 1. **Add Product 📦**
    - Users can add a new product to the inventory.
