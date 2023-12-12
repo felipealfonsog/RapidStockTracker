@@ -63,7 +63,7 @@ SmartStockKeeper is a user-friendly command-line inventory management tool tailo
 
 #### License
 
-Term Notes is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+This piece of software is licensed under the BSD v3 License. See [LICENSE](LICENSE) for more information.
 
 #### Contact
 
