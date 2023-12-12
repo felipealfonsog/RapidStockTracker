@@ -1,7 +1,6 @@
 ### RapidStockTracker*
 
-RapidStockTracker is a user-friendly command-line inventory management tool tailored for small businesses. With a clear and intuitive interface, it simplifies the process of adding products, viewing inventory details, and generating insightful reports. Dynamic inventory scaling allows flexibility, while robust error handling ensures a smooth user experience. This program is designed for ease of use, providing essential features for efficient product tracking and informed decision-making. It adapts dynamically to varying inventory sizes and encourages users to interact seamlessly through a straightforward menu. SmartStockKeeper empowers businesses with comprehensive insights into their inventory, enhancing overall management efficiency.
-
+RapidStockTracker is a streamlined inventory management solution, meticulously crafted for swift and efficient use in small businesses. This command-line tool offers a frictionless experience, allowing users to effortlessly add products, access real-time inventory details, and generate rapid, insightful reports. With dynamic inventory scaling and robust error handling, RapidStockTracker ensures adaptability and a seamless user experience. This project is dedicated to simplicity, providing essential features for accelerated product tracking and informed decision-making. It embraces a clear and intuitive interface, encouraging users to navigate effortlessly through a concise menu. RapidStockTracker empowers businesses with agile inventory insights, facilitating quick and informed management decisions.
 <!-- 
 ![Version](https://img.shields.io/github/release/felipealfonsog/RapidStockTracker.svg?style=flat&color=blue)
 -->
