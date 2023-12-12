@@ -1,6 +1,6 @@
 ### RapidStockTracker*
 
-SmartStockKeeper is a user-friendly command-line inventory management tool tailored for small businesses. With a clear and intuitive interface, it simplifies the process of adding products, viewing inventory details, and generating insightful reports. Dynamic inventory scaling allows flexibility, while robust error handling ensures a smooth user experience. This program is designed for ease of use, providing essential features for efficient product tracking and informed decision-making. It adapts dynamically to varying inventory sizes and encourages users to interact seamlessly through a straightforward menu. SmartStockKeeper empowers businesses with comprehensive insights into their inventory, enhancing overall management efficiency.
+RapidStockTracker is a user-friendly command-line inventory management tool tailored for small businesses. With a clear and intuitive interface, it simplifies the process of adding products, viewing inventory details, and generating insightful reports. Dynamic inventory scaling allows flexibility, while robust error handling ensures a smooth user experience. This program is designed for ease of use, providing essential features for efficient product tracking and informed decision-making. It adapts dynamically to varying inventory sizes and encourages users to interact seamlessly through a straightforward menu. SmartStockKeeper empowers businesses with comprehensive insights into their inventory, enhancing overall management efficiency.
 
 <!-- 
 ![Version](https://img.shields.io/github/release/felipealfonsog/RapidStockTracker.svg?style=flat&color=blue)
@@ -18,7 +18,7 @@ SmartStockKeeper is a user-friendly command-line inventory management tool tailo
 
 <sub>* This is currently an experimental phase where the primary focus is on making the system functional and establishing a practical and logical pathway that aligns with both my vision and the project's goals. It might contain errors, bugs, etc. Many other non-core elements of the project are considered secondary.</sub>
 
-#### SmartStockKeeper Features
+#### RapidStockTracker Features
 
 1. **Add Product 📦**
    - Users can add a new product to the inventory.
