@@ -1,11 +1,12 @@
 IDENTIFICATION DIVISION.
-PROGRAM-ID. SmartStockKeeper.
+PROGRAM-ID. RapidStockTracker.
 
 DATA DIVISION.
 WORKING-STORAGE SECTION.
 01 Option        PIC 9 VALUE 0.
 01 ProductIndex  PIC 9 VALUE 0.
 01 I             PIC 9 VALUE 0.
+01 TotalValue    PIC 9(10)V99.
 
 01 Product.
    05 ProductID     PIC X(10).
@@ -25,7 +26,7 @@ WORKING-STORAGE SECTION.
 PROCEDURE DIVISION.
    PERFORM InitializeInventory.
 
-   DISPLAY "Welcome to SmartStockKeeper - Small Business Inventory Manager".
+   DISPLAY "Welcome to RapidStockTracker - Small Business Inventory Manager".
    PERFORM UNTIL Option = 4
       DISPLAY "1. Add Product".
       DISPLAY "2. View Inventory".
@@ -35,7 +36,7 @@ PROCEDURE DIVISION.
       PERFORM ProcessOption.
    END-PERFORM.
 
-   DISPLAY "Thank you for using SmartStockKeeper. Goodbye!".
+   DISPLAY "Thank you for using RapidStockTracker. Goodbye!".
 
 InitializeInventory.
    MOVE 0 TO ProductIndex.
@@ -90,7 +91,8 @@ GenerateReport.
          DISPLAY "Product ID: ", PRODUCT-ID(I).
          DISPLAY "Product Name: ", PRODUCT-NAME(I).
          DISPLAY "Quantity: ", PRODUCT-QTY(I).
-         DISPLAY "Total Value: $", PRODUCT-QTY(I) * PRODUCT-PRICE(I).
+         COMPUTE TotalValue = PRODUCT-QTY(I) * PRODUCT-PRICE(I).
+         DISPLAY "Total Value: $", TotalValue.
       END-PERFORM.
    END-IF.
 
